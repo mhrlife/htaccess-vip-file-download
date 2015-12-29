@@ -1,0 +1,6 @@
+ErrorDocument 401 "username or password is not correct .   <a href='http://localhost/vipdownload/'>home</a> "
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile /var/www/html/vipdownload/downloads/.htpasswd
+Require valid-user
+
